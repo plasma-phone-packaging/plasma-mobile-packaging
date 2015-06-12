@@ -1,0 +1,40 @@
+Source: plasma-mobile
+Section: kde
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+XSBC-Original-Maintainer: Jonathan Riddell <jr@jriddell.org>
+Build-Depends: baloo-kf5-dev,
+               cmake,
+               debhelper (>= 9.0.0~),
+               extra-cmake-modules,
+               libkf5activities-dev,
+               libkf5archive-dev,
+               libkf5bookmarks-dev,
+               libkf5declarative-dev,
+               libkf5kdelibs4support-dev,
+               libkf5networkmanagerqt-dev,
+               libkf5notifications-dev,
+               libkf5solid-dev,
+               libkf5windowsystem-dev,
+               pkg-kde-tools,
+               plasma-framework-dev,
+               qtbase5-dev,
+               qtdeclarative5-dev
+Standards-Version: 3.9.6
+Homepage: https://projects.kde.org/projects/extragear/base/plasma-mobile
+
+Package: plasma-mobile
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: mobile shell from Plasma
+ A workspace for your phone using KDE's Plasma.
+
+Package: plasma-mobile-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: plasma-mobile (= ${binary:Version}), ${misc:Depends}
+Description: mobile shell from Plasma - debugging symbols
+ A workspace for your phone using KDE's Plasma.
+ .
+ This package contains the debugging symbols.

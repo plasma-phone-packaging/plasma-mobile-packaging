@@ -1,0 +1,45 @@
+Format: http://dep.debian.net/deps/dep5/
+Source: https://projects.kde.org/projects/extragear/base/plasma-mobile
+
+Files: *
+Copyright: 2006-2008 Aaron Seigo <aseigo@kde.org>
+ 2009 Marco Martin <notmart@gmail.com>
+ 2010 Alexis Menard <menard@kde.org>
+ 2010 Artur Duque de Souza <asouza@kde.org>
+ 2010 Chani Armitage <chani@kde.org>
+ 2011 Sebastian Kügler <sebas@kde.org>
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file /usr/share/common-licenses/GPL-2.
+
+Files: debian/*
+Copyright: 2015, Jonathan Riddell <jr@jriddell.org>
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file /usr/share/common-licenses/GPL-2.
