@@ -27,7 +27,12 @@ Vcs-Git: https://github.com/plasma-mobile/plasma-mobile-packaging.git
 
 Package: plasma-mobile
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: plasma-framework,
+         plasma-mobile-components,
+         qml-module-org-kde-kquickcontrolsaddons,
+         qml-module-qtquick2,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: mobile shell from Plasma
  A workspace for your phone using KDE's Plasma.
 
